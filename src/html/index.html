@@ -1,0 +1,13 @@
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+  <div class="page-container">
+    <div class="container">
+      <div class="divider"></div>
+      {% include "_product/card-list.html" %}
+      <div class="divider"></div>
+      {% include "_product/card-slider.html" %}
+      <div class="divider"></div>
+    </div>
+  </div>
+{% endblock %}

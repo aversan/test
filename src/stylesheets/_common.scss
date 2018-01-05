@@ -1,0 +1,34 @@
+.spacer {
+  flex-grow: 1;
+}
+
+.disable-hover,
+.disable-hover * {
+  pointer-events: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.rur {
+  font-family: "ALSRubl", sans-serif;
+}
+
+.page-container {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  @include media-breakpoint-down(sm) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.divider {
+  margin-top: 70px;
+}
+
+.price {
+  white-space: nowrap;
+}
