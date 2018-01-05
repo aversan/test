@@ -14,9 +14,7 @@
   <div class="js-swiper-virtual-slides" style="display: none">
     {% for i in [1,2,3,4,5,6,7,8,9,10] -%}
     {% if loop.index <= 10 %}
-    <div class="swiper-slide product-slider__slide">
       {% include "_product/card.html" %}
-    </div>
     {% endif %}
     {%- endfor %}
   </div>

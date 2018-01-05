@@ -168,10 +168,6 @@
     margin: -3px;
   }
 
-  &__slide {
-    margin-right: 20px;
-  }
-
   &__prev,
   &__next {
     width: 60px;
@@ -219,5 +215,9 @@
   &__next:hover {
     background-color: $black;
     transition: $transition-base;
+  }
+
+  .swiper-slide {
+  	margin-right: 20px;
   }
 }
